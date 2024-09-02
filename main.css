@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-grid {
+  height: 75vh;
+  width: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row-box {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.col-box {
+  box-sizing: border-box;
+  /* background-color: white; */
+  border: 0.5px solid black;
+  width: 100%;
+  height: 100%;
+}
+.col-box-right {
+  border-right: none;
+}
+.col-box-bottom {
+  border-bottom: none;
+}
+.bg-color-add {
+  opacity: 0;
+}
